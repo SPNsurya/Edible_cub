@@ -6,6 +6,10 @@ userSchema = new Schema( {
 	unique_id: Number,
 	email: String,
 	username: String,
+	age: Number,
+	year: String,
+	birth: String,
+	clgName: String,
 	password: String,
 	passwordConf: String
 }),
